@@ -1,0 +1,240 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2047734900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ChangeColorSteps.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User Should see background change to Sky Blue when clicked",
+        "description": "",
+        "id": "set-skyblue-background-functionality-validation;user-should-see-background-change-to-sky-blue-when-clicked;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 16778862700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ChangeColorSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 116061400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"skyblue\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "skyblue",
+                  "offset": 1
+                }
+              ],
+              "location": "ChangeColorSteps.set_button_exists(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37320200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the \"skyblue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "skyblue",
+                  "offset": 16
+                }
+              ],
+              "location": "ChangeColorSteps.clickButton(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35564700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the background color will change to \"skyblue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "skyblue",
+                  "offset": 37
+                }
+              ],
+              "location": "ChangeColorSteps.the_background_color_will_change_to_sky_blue(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Scenario1"
+          },
+          {
+            "line": 1,
+            "name": "@SetBlueFeature"
+          },
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1453643900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ChangeColorSteps.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User Should see background change to Sky Blue when clicked",
+        "description": "",
+        "id": "set-skyblue-background-functionality-validation;user-should-see-background-change-to-sky-blue-when-clicked;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 694817100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ChangeColorSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 42891500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"white\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "white",
+                  "offset": 1
+                }
+              ],
+              "location": "ChangeColorSteps.set_button_exists(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36058300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the \"white\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "white",
+                  "offset": 16
+                }
+              ],
+              "location": "ChangeColorSteps.clickButton(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34128600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the background color will change to \"white\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "white",
+                  "offset": 37
+                }
+              ],
+              "location": "ChangeColorSteps.the_background_color_will_change_to_sky_blue(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Scenario1"
+          },
+          {
+            "line": 1,
+            "name": "@SetBlueFeature"
+          },
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Set SkyBlue background functionality validation",
+    "description": "",
+    "id": "set-skyblue-background-functionality-validation",
+    "keyword": "Feature",
+    "uri": "features/scenarioBlue.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SetBlueFeature"
+      },
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]
